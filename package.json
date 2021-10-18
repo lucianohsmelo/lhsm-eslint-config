@@ -1,0 +1,35 @@
+{
+  "name": "@lhsm/eslint-config-recommended",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "scripts": {
+    "prettier": "prettier --check \"./**/*.{json,js}\"",
+    "prettier:write": "npm run prettier -- --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucianohsmelo/lhsm-eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucianohsmelo/lhsm-eslint-config/issues"
+  },
+  "homepage": "https://github.com/lucianohsmelo/lhsm-eslint-config#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.0.0",
+    "@typescript-eslint/parser": "5.0.0",
+    "eslint-plugin-import-helpers": "1.1.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-sonarjs": "0.10.0",
+    "eslint": "8.0.1",
+    "prettier": "2.4.1",
+    "typescript": "4.4.4"
+  }
+}
